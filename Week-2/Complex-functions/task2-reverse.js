@@ -15,11 +15,12 @@ const splitString = (str) => {
     return resultArray;                
  }
 
- let word = "Oh, you're finally awake. Trying to cross the border, huh?";
+ let word = "Saya belajar Javascript";
  console.log(word);
  let div = splitString(word);
- let temp=[];
- function reverseWord(word) {
+
+ 
+ const reverseWord = (word) => {
     let ret = new Array;
     for(let i = word.length-1; i >= 0; i--) {
         ret.push(word[i]);

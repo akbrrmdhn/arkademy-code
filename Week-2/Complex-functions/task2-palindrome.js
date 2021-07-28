@@ -1,4 +1,4 @@
-let palinWord = "saippuakivikauppias";
+let palinWord = "malam";
 let x = palinWord.length;
 let palindrome = true;
 
