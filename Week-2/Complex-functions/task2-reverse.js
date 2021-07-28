@@ -4,7 +4,7 @@ const splitString = (str) => {
     for(var i = 0; i< str.length;i++){ 
         if(str[i] !== ' '){            
           tempString += str[i];        
-         } else if(tempString.trim()){     //minor change                  
+         } else {
           resultArray.push(tempString);
           tempString = "";             
         }
