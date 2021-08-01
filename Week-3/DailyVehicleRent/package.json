@@ -1,0 +1,22 @@
+{
+  "name": "dailyvehiclerent",
+  "version": "1.0.0",
+  "description": "A prototype app made for daily vehicle rent service.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akbrrmdhn/arkademy-code.git"
+  },
+  "author": "Akbar Ramadhan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/akbrrmdhn/arkademy-code/issues"
+  },
+  "homepage": "https://github.com/akbrrmdhn/arkademy-code#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
